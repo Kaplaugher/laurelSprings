@@ -1,0 +1,101 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Laurel Springs Animal Hospital"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "LSAH"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Products"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Laurel Springs Animal Hospital"
+		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
+		buttonText = "Check us out!"
+
+
+	# About section
+	[params.about]
+		headline    = "We've got what you need!"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		buttonText  = ""
+
+
+	# Service section
+	[params.services]
+		headline = "We Are The Best Yo"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Great Stuff"
+            description = "ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "The best customer service"
+			description = "ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "We love puppies"
+            description = "Wipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur"
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Yeehaw"
+            description = "ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "HElloooooo"
+
+		
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Give us your money"
+		phone = "770-888-9750"
+		email = "something@something.com"
+		address = "3592 Old Atlanta Road Suite 103 Suwanee GA 30024"
+
+	
